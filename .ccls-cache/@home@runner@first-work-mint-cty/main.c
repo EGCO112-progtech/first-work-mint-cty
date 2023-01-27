@@ -7,10 +7,11 @@
 
 #include <stdio.h>
 
-int main(int argc, char * argv[]) {
+int main(int argc, char * argv[]) 
+{
     
     printf("argc is %d\n",argc);
-    int i;
+    int i,N;
     for(i=1;i<argc;i++){
         printf("%s\n",argv[i]);
         
